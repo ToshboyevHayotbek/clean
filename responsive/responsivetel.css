@@ -1,0 +1,77 @@
+@media only screen and (max-width: 400px){
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .header{
+        width: 100%;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .header__item h1{
+        width: 100%;
+        font-size: 2.8rem;
+        font-family: Ubuntu;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .header__item p{
+        font-size: 1rem;
+        font-family: Roboto Slab;
+        margin-bottom: 8%;
+        text-align: center;
+
+    }
+    .header__button button{
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .services__title p{
+        font-family: Karla;
+        font-size: 1rem;
+    }
+    .clean__item p{
+        color: white;
+        font-family: Karla;
+        margin-bottom: 55px;
+        font-size: 0.8rem;
+    }
+    .icon__left{
+        display: none;
+    }
+    .icon__right{
+        display: none;
+    }
+    .img__content{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .testimonial__img img{
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .testimonial__p p{
+        font-family: Roboto Slab;
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+    .footer__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 4rem;
+        margin: 0 auto;
+    }
+}

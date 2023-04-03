@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&family=Libre+Baskerville:ital@1&family=Rampart+One&family=Roboto+Slab:wght@900&family=Rowdies:wght@300&family=Shantell+Sans:ital,wght@1,800&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+}
+.navigation{
+    width: 100%;
+    padding: 2rem 4rem;
+}
+.nav__bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    text-align: center;
+}
+.nav__item i{
+    color: #0C426E;
+    font-size: 1.6rem;
+}
+.nav__contact i{
+    color: #0C426E;
+    font-size: 2.2rem;
+}
+.header__content{
+    padding: 8rem 12rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 0 auto;
+}
+.header__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.header__item h1{
+    width: 70%;
+    font-size: 5rem;
+    font-family: Ubuntu;
+    margin-bottom: 2%;
+}
+.header__item p{
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+    margin-bottom: 5%;
+}
+.header__button button{
+    padding: 1.2rem 3rem;
+    border-radius: 10px;
+    border: none;
+}
+.get{
+    background-color: #0C426E;
+}
+.us{
+    margin-left: 40px;
+    background-color: #252525;
+}
+.us:hover{
+    background-color: #0C426E;
+    transition: 0.5s;
+}
+.header__button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.services{
+    width: 100%;
+    padding: 2rem 0;
+}
+.services__title{
+    width: 100%;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.services__title h2{
+    color: #0C426E;
+    font-family: Ubuntu;
+    font-size: 2rem;
+}
+.services__title p{
+    font-family: Karla;
+    font-size: 1.2rem;
+}
+.services__content{
+    width: 100%;
+}
+.services__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.services__img img{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+.services__item{
+    padding: 1rem 1rem;
+    border: 1px solid #0C426E;
+    text-align: center;
+    border-radius: 10px;
+}
+.services__item h3{
+    font-size: 1.6rem;
+    font-family: Roboto Slab;
+    margin-bottom: 10px;
+}
+.services__item button{
+    padding: 0.8rem 2rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+.services__item a{
+    text-decoration: none;
+    font-family: Roboto Slab;
+    color: #0C426E;
+}
+.services__item:hover, .services__item:focus{
+    background-color: #0C426E;
+    color: white;
+    transition: 0.5s;
+}
+.services__item p{
+    font-family: Karla;
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+.choose{
+    width: 100%;
+    padding: 2rem 0;
+}
+.choose__title{
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 60px;
+}
+.choose__title h2{
+    color: #0C426E;
+    font-size: 2.4rem;
+    font-family: Ubuntu;
+    text-align: center;
+}
+.choose__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.choose__item{
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+.number{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+.number h3{
+    font-size: 1.8rem;
+    margin-top: 3px;
+    color: #0C426E;
+}
+.number__p h3{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Ubuntu;
+    color: #0C426E;
+}
+.choose__item p{
+    text-align: center;
+    color: #0C426E;
+}
+.choose__item:hover{
+    background-color: #0C426E;
+    transition: 0.5s;
+    color: white;
+}
+.number h3:hover{
+    color: white;
+    transition: 0.5s;
+}
+.choose__item p:hover{
+    color: white;
+    transition: 0.5s;
+}
+.number__p h3{
+    color: white;
+    transition: 0.5s;
+}
+.clean__title{
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 4%;
+}
+.clean__title h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Roboto Slab;
+}
+.clean{
+    width: 100%;
+    background-image: url(/images/img-4.png);
+    background-position: center;
+    background-size: cover;
+    padding: 6rem 0;
+}
+.clean__item{
+    width: 100%;
+    text-align: center;
+}
+.clean__item h3{
+    font-size: 2rem;
+    font-family: Ubuntu;
+    color: white;
+    margin-bottom: 15px;
+}
+.clean__item p{
+    color: white;
+    font-family: Karla;
+    margin-bottom: 55px;
+    font-size: 1.2rem;
+}
+.clean__item button{
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+}
+.clean__item a{
+    text-decoration: none;
+    color: #0C426E;
+}
+.clean__item button:hover, .clean__item button:focus{
+    background-color: #0C426E;
+    transition: 0.5s;
+}
+.clean__item a:hover, .clean__item a:focus{
+    color: white;
+    transition: 0.5s;
+}
+.testimonial{
+    width: 100%;
+    padding: 2rem 0;
+}
+.testimonial__title{
+    width: 100%;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+.testimonial__title h3{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Roboto Slab;
+}
+.testimonial__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.icon__left{
+    width: 80px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: #0C426E;
+    border: none;
+}
+.icon__right{
+    width: 80px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: #0C426E;
+    border: none;
+}
+.icon__left i{
+    margin-top: 35%;
+    font-size: 1.6rem;
+    color: white;
+}
+.icon__right i{
+    margin-top: 35%;
+    font-size: 1.6rem;
+    color: white;
+}
+.icon__left:hover, .icon__left:focus{
+    background-color: white;
+    transition: 0.5s;
+}
+.icon__right:hover, .icon__right:focus{
+    background-color: white;
+    transition: 0.5s;
+}
+.icon__left i:hover, .icon__left i:focus{
+    color: #0C426E;
+    transition: 0.5s;
+}
+.icon__right i:hover, .icon__right i:focus{
+    color: #0C426E;
+    transition: 0.5s;
+}
+.img__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.testimonial__img img{
+    width: 100%;
+}
+.testimonial__p p{
+    font-family: Roboto Slab;
+    margin-bottom: 20px;
+}
+.testimonial__p h3{
+    color: #0C426E;
+    font-family: Karla;
+}
+.footer{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #252525;
+}
+.footer__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    margin: 0 auto;
+}
+.footer__item h2{
+    color: white;
+    font-family: Roboto Slab;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.footer__item{
+    text-align: center;
+}
+.footer__item i{
+    color: #929292;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.footer__item h4{
+    color: #929292;
+    margin-bottom: 20px;
+    font-family: Ubuntu;
+}
+.footer__item a{
+    color: #929292;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-family: Roboto Slab;
+}
+.footer__item p{
+    color: #929292;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-family: Roboto Slab;
+}
+.footer__item input{
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: 10px;
+    text-indent: 10px;
+    margin-bottom: 2rem;
+    color: #008cff;
+}
+.footer__item input[type='submit']{
+    width: 50%;
+    background-color: #0C426E;
+    border: none;
+    color: white;
+}
+
+

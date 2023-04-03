@@ -1,0 +1,116 @@
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .header{
+        width: 100%;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .nav__item p{
+        display: none;
+    }
+    .nav__item i{
+        display: none;
+    }
+    .nav__contact i{
+        color: #0C426E;
+        font-size: 2.2rem;
+    }
+    .header__content{
+        padding: 0rem 3rem;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem;
+        margin: 0 auto;
+    }
+    .header__item h1{
+        width: 80%;
+        font-size: 4.5rem;
+        font-family: Ubuntu;
+        margin-bottom: 2%;
+    }
+    .services__grid{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+    #services__res{
+        margin-bottom: 5rem;
+    }
+    .services__img img{
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .services__item h3{
+        font-size: 1.2rem;
+        font-family: Roboto Slab;
+        margin-bottom: 10px;
+    }
+    .services__item p{
+        font-family: Karla;
+        margin-bottom: 20px;
+        opacity: 0.85;
+    }
+    .choose__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .choose__item{
+        padding: 2rem 1rem;
+        border-radius: 20px;
+    }
+    .img__content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .icon__left{
+        width: 80px;
+        height: 70px;
+        border: 1px solid black;
+        border-radius: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2%;
+        background-color: #0C426E;
+        border: none;
+    }
+    .icon__right{
+        width: 80px;
+        height: 70px;
+        border: 1px solid black;
+        border-radius: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2%;
+        background-color: #0C426E;
+        border: none;
+    }
+    .testimonial__item{
+        width: 100%;
+    }
+    .testimonial__p p{
+        font-family: Roboto Slab;
+        margin-bottom: 20px;
+        font-size: 0.5rem;
+    }
+    .footer__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        margin: 0 auto;
+    }
+}
